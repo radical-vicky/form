@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Account</title>
+    <link rel="icon" href="../templates/static/images/icon.png">
+  <link rel="stylesheet" href="../templates/static/css/styles.css">
+  <link rel="stylesheet" href="../templates/static/bootstrap/css/bootstrap.min.css">
+</head>
+<body class="body">
+
+<nav style="background-color: #41464b">
+    <div class="top-nav">
+        <a href="index.html"><img src="../templates/static/images/cool-icon.jpeg" alt="" style="width: 45px; height: 45px; border: none;"></a>
+  <a href="index.html" class="vicky">Vicky<span style="color: #070f47">Solutions</span></a>
+<button  class="top-bton" style="background-color: #1BAF2A;"><a href="" class="top-ba"  >sign in</a></button>
+<button class="top-bton" > <a href="login.html" class="top-ba" >log in</a></button>
+        </div>
+</nav>
+
+
+    <div class="container" >
+         <h2>Create Account</h2>
+    <form action="action.php"  method="post" style="color: #41464b; align-content: center; justify-content: center; float: left">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="password">Confirm Password:</label><br>
+        <input type="password" id="password1" name="password" required><br>
+
+
+        <br>
+        <input type="submit" value="Create Account" class="btn btn-primary" style="padding-left: 60px ; padding-right: 35px; text-align: center; margin-bottom: 10px;">
+    </form>
+    </div>
+
+</body>
+</html>

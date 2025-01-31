@@ -1,0 +1,167 @@
+.body{
+            background-color: #0B1441 ;
+            font-family: Arial, sans-serif;
+            margin: 0;
+
+
+        }
+
+        .sidebar {
+            margin-top: 45px;
+            height: 100vh;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+        .content {
+            margin-left: 260px;
+            padding: 20px;
+            color: white;
+        }
+.top-bton{
+    float: right;
+    margin: 6px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color:#3420E9;
+
+
+}
+.top-ba{
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    color: white ;
+    margin: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+.top-nav .top-bton .top-ba:hover{
+    color: #084298;
+
+}
+.vicky{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 18px;
+
+}
+.vicky:hover{
+    color: #084298;
+}
+.vicky span:hover{
+    color: white;
+}
+
+
+
+        .login-container {
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            background-color: white;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .login-container h2 {
+            text-align: left;
+            margin-bottom: 20px;
+            margin-left: 300px;
+            margin-right: 80px;
+        }
+        .login-container input {
+
+            width: 50%;
+            padding: 10px;
+            margin-left: 300px ;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-container button {
+            width: 50%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 300px ;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .login-container button:hover {
+            background-color: #45a049;
+        }
+
+        .login-container .createb {
+            width: 50%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 300px ;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .container1 {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container1 h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .container1 input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .container1 button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .container1 button:hover {
+            background-color: #0056b3;
+        }
+        .container{
+            background-color: white;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
